@@ -43,8 +43,8 @@ export default class HomeHeader extends React.Component{
                             ...transitionStyles[state]
                         }} onClick={this.changeType}>
                             <li data-type="0">全部课程</li>
-                            <li data-type="1">vue课程</li>
-                            <li data-type="2">react课程</li>
+                            <li data-type="1">react课程</li>
+                            <li data-type="2">vue课程</li>
                         </ul>
                     )}
                 </Transition>

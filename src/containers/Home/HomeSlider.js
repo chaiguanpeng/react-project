@@ -7,7 +7,6 @@ export default class Home extends Component {
         this.state = {index:0}
     }
     render() {
-        console.log(this.props);
         let opts = {continuous: true,auto:1000,transitionEnd: (index)=> {
                 this.setState({index})
             }};
