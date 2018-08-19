@@ -9,16 +9,19 @@ import {loadMore,pullRefresh} from "../../util";
 import Loading from "../../components/Loading/Loading";
 class Home extends React.Component{
     componentDidMount(){
-        console.log(this.props);
-        this.props.setSliders();
-        this.props.setLessons(); //获取课程信息
+        //切换三个页面时会重新请求，作此优化
+        if(!this.props.slider.lists.length){
+            this.props.setSliders();
+        }
+        if(!this.props.lesson.list.length){
+            this.props.setLessons(); //获取课程信息
+        }
         loadMore(this.x,this.props.setLessons); //加载更多
         pullRefresh(this.x,this.props.refresh);    //下拉刷新
     }
     changeType = (value)=>{
        this.props.setCurrentLesson(value)
     };
-
     render(){
         return (
             <div>

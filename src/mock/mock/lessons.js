@@ -2,37 +2,42 @@ module.exports = [
     {
         id:1,
         title:'React全栈架构',
-        url:'http://www.zhufengpeixun.cn/react/img/react.jpg',
+        url:'http://www.zhufengpeixun.com/videoCourse/images/video_react.png',
         price:'￥100.00元',
-        type:1
+        type:1,
+        video:'http://baike.shangyekj.com/BackStageWeb/UpLoad/Album/YiShu/YinLe/MinZuLe/HuLuSiXueTang(1)/AlbumFile/201606231822357599.mp4'
     },
     {
         id:2,
         title:'Vue全栈架构',
         url:'http://www.zhufengpeixun.com/videoCourse/images/video_vue.png',
         price:'￥200.00元',
-        type:2
+        type:2,
+        video:'http://baike.shangyekj.com/BackStageWeb/UpLoad/Album/YiShu/YinLe/MinZuLe/HuLuSiXueTang(1)/AlbumFile/201606231822357599.mp4'
     },
     {
         id:3,
         title:'node全栈架构',
         url:'http://www.zhufengpeixun.com/videoCourse/images/video_node.png',
         price:'￥300.00元',
-        type:3
+        type:3,
+        video:'http://baike.shangyekj.com/BackStageWeb/UpLoad/Album/YiShu/YinLe/MinZuLe/HuLuSiXueTang(1)/AlbumFile/201606231822357599.mp4'
     },
     {
         id:4,
         title:'h5全栈架构',
         url:'http://www.zhufengpeixun.com/videoCourse/images/video_h5.png',
         price:'￥400.00元',
-        type:4
+        type:4,
+        video:'http://baike.shangyekj.com/BackStageWeb/UpLoad/Album/YiShu/YinLe/MinZuLe/HuLuSiXueTang(1)/AlbumFile/201606231822357599.mp4'
     },
     {
         id:5,
         title:'React全栈架构',
-        url:'http://www.zhufengpeixun.cn/react/img/react.jpg',
+        url:'http://www.zhufengpeixun.com/videoCourse/images/video_react.png',
         price:'￥110.00元',
-        type:1
+        type:1,
+        video:'http://baike.shangyekj.com/BackStageWeb/UpLoad/Album/YiShu/YinLe/MinZuLe/HuLuSiXueTang(1)/AlbumFile/201606231822357599.mp4'
     },
     {
         id:6,
@@ -58,7 +63,7 @@ module.exports = [
     {
         id:9,
         title:'React全栈架构',
-        url:'http://www.zhufengpeixun.cn/react/img/react.jpg',
+        url:'http://www.zhufengpeixun.com/videoCourse/images/video_react.png',
         price:'￥120.00元',
         type:1
     },
@@ -85,7 +90,7 @@ module.exports = [
     },{
         id:13,
         title:'React全栈架构',
-        url:'http://www.zhufengpeixun.cn/react/img/react.jpg',
+        url:'http://www.zhufengpeixun.com/videoCourse/images/video_react.png',
         price:'￥100.00元',
         type:1
     },
@@ -113,7 +118,7 @@ module.exports = [
     {
         id:17,
         title:'React全栈架构',
-        url:'http://www.zhufengpeixun.cn/react/img/react.jpg',
+        url:'http://www.zhufengpeixun.com/videoCourse/images/video_react.png',
         price:'￥110.00元',
         type:1
     },
@@ -141,7 +146,7 @@ module.exports = [
     {
         id:21,
         title:'React全栈架构',
-        url:'http://www.zhufengpeixun.cn/react/img/react.jpg',
+        url:'http://www.zhufengpeixun.com/videoCourse/images/video_react.png',
         price:'￥120.00元',
         type:1
     },
