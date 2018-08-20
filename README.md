@@ -9,3 +9,7 @@
 - 4.在action中调用接口
 - 5.编写reducer
 - 6.在组件中调用acation
+## 运行步骤
+- 运行yarn install
+- 启动服务端server.js
+- yarn run dev
