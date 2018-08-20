@@ -5,12 +5,13 @@ import Login from "./containers/Login/Login";
 import Reg from "./containers/Reg/Reg";
 import Detail from "./containers/Detail/Detail"
 import ProviderRoute from "./ProviderRoute"
-import Lesson from "./containers/Lesson/Lesson";
-import Profile from "./containers/Profile/Profile";
 import TabBar from "./components/TabBar/TabBar"
 import {HashRouter,Route,Switch} from "react-router-dom";
 import store from "./store";
 import {Provider} from "react-redux"
+import async from "./asyncComponent";
+let Lesson = async(()=>import("./containers/Lesson/Lesson"));
+let Profile = async(()=>import("./containers/Profile/Profile"));
 render(
     <Provider store={store}>
         <HashRouter>
