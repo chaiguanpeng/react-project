@@ -1,6 +1,7 @@
 let path = require('path');
 let HtmlWebpackPlugin = require('html-webpack-plugin');
 module.exports = {
+    mode:"development",
     entry: './src/index.js',
     output: {
         path: path.resolve('./dist'),

@@ -26,6 +26,7 @@ render(
                     <Route path = "/detail/:id" component = {Detail}></Route>
                 </Switch>
                 <TabBar />
+
             </div>
         </HashRouter>
     </Provider>
